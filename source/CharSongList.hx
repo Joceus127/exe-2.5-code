@@ -3,34 +3,38 @@ package;
 class CharSongList
 {
     public static var data:Map<String,Array<String>> = [
+      "xenophanes" => ["final-escape"],
       "majin" => ["endless", "endless-og"],
-      "lord x" => ["cycles"],
+      "lord x" => ["cycles", "fate"],
       "tails doll" => ["sunshine", "soulless"],
       "fleetway" => ["chaos"],
-      "fatalerror" => ["fatality"],
-      "chaotix" => ["my-horizon", "our-horizon"],
-      "curse" => ["malediction"],
+      "fatalerror" => ["fatality"]
       "starved" => ["prey", "fight-or-flight"],
-      "xterion" => ["substantial", "digitalized"],
+      "xterion" => ["substantial"],
+      "satanos" => ["perdition"],
+      "faker" => ["faker"], 
+      "exe" => ["black-sun"],
+      "sl4sh" => ["b4cksl4sh"],
       "needlemouse" => ["round-a-bout"],
-      "hog" => ["manual-blast"],
       "sunky" => ["milk"],
       "sanic" => ["too-fest"],
       "coldsteel" => ["personel"]
     ];
 
     public static var characters:Array<String> = [ // just for ordering
+      "xenophanes",
       "majin",
       "lord x",
       "tails doll",
       "fleetway",
       "fatalerror",
-      "chaotix",
-      "curse",
       "starved",
-      "xterion",
+      "xterion",  
+      "satanos",
+      "sl4sh",
+      "faker",
+      "exe",
       "needlemouse",
-      "hog",
       "sunky",
       "sanic",
       "coldsteel"
